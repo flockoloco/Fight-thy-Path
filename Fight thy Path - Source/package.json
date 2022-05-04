@@ -1,0 +1,23 @@
+{
+  "name": "p5",
+  "version": "1.0.0",
+  "description": "Project",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Server.js"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "lesshat": "^4.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "node-addon-api": "^3.0.0",
+    "pug": "^3.0.0",
+    "util.promisify": "^1.0.1"
+  }
+}
